@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Concert+One&family=Pacifico&display=swap');
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Acme', sans-serif;
+font-family: 'Concert One', cursive;
+font-family: 'Pacifico', cursive; */
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+    background: url(nature25.jpeg);
+    background-size: cover;
+}
+.card{
+    background-color:#000000;
+  opacity: 0.8;
+    padding: 2rem;
+    width: 100%;
+    max-width: 383px;
+    
+    border-radius: 26px;
+}
+button{
+    margin: 0.5rem;
+    border-radius: 50%;
+    border: none;
+    /* padding: 8px; */
+    width: 35px;
+    height: 35px;
+    color: white;
+    background-color: #4a4949;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.searchbar{
+    border: none;
+    font-size: 17px;
+    border-radius: 18px;
+    height: 15px;
+    padding: 9px;
+    background-color: #4a4949;
+    outline: none;
+    color: white;
+    text-align: center;
+    width: 19rem;
+    margin-bottom: 4px;
+}
+button:hover{
+    background-color: #8d8d91;
+    color: black;
+}
+h2{
+    color: white;
+    font-family: 'Concert One', cursive;
+    font-size: 33px;
+    
+}
+.temp{
+    color: white;
+    font-family: 'Concert One', cursive;
+    font-size: 24px;
+}
+.description{
+    color: white;
+    font-family: 'Concert One', cursive;
+    margin: 8px;
+    margin-left: 0px;
+}
+.humidity{
+    color: white;
+    font-family: 'Concert One', cursive;
+    margin: 8px;
+    margin-left: 0px;
+}
+.wind{
+    color: white;
+    font-family: 'Concert One', cursive;
+    margin: 8px;
+    margin-left: 0px;
+}
+img{
+    width: 41px;
+    display: inline-block;
+}
