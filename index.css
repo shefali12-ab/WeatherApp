@@ -86,3 +86,14 @@ img{
     width: 41px;
     display: inline-block;
 }
+.weather.loading{
+    display: none;
+}
+.weather.loading:after{
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0%;
+  
+}

@@ -29,7 +29,7 @@ let weather={
      document.querySelector('.humidity').innerHTML= "Humidity: " + humidity +"%";
      document.querySelector('.wind').innerHTML= "Wind Speed: " + speed +"km/h";
 
-     
+     document.querySelector(".weather").classList.remove("loading");
 
 
     },
@@ -40,3 +40,9 @@ let weather={
 document.querySelector(".search button").addEventListener("click",function(){
    weather.search();
 })
+document.querySelector(".searchbar").addEventListener("keyup",function(event){
+    if(event.key=="Enter"){
+        weather.search();
+    }
+})
+// weather.featchWeather("Lucknow");
