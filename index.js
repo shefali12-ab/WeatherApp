@@ -45,4 +45,4 @@ document.querySelector(".searchbar").addEventListener("keyup",function(event){
         weather.search();
     }
 })
-// weather.featchWeather("Lucknow");
+ weather.featchWeather("Lucknow");
